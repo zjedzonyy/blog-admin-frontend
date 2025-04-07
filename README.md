@@ -10,3 +10,9 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+ Blog Admin (Frontend – Author Panel)
+
+    Tech: React
+    Admin panel for managing posts and comments. Authenticated authors can create, edit, publish/unpublish, and delete posts. Also allows comment moderation and logout functionality.
