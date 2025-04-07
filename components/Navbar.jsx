@@ -23,6 +23,9 @@ export default function Navbar() {
                     <div className={classes.tab}>
                     <Link to='/posts'>Posts</Link>
                     </div>
+                    <div className={classes.tab}>
+                    <Link to='/create-post'>New Post</Link>
+                    </div>
                 </nav>
             </div>
         </header>

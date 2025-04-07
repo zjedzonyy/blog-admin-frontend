@@ -8,7 +8,7 @@ import Homepage from '../components/Homepage'
 import LoginForm from '../components/LoginForm'
 import Posts from '../components/Posts'
 import Post from '../components/Post'
-
+import NewPost from '../components/NewPost'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +18,8 @@ const router = createBrowserRouter([
       { path: 'signup', element: <SignupForm />},
       { path: 'login', element: <LoginForm />},
       { path: 'posts', element: <Posts />},
-      { path: 'posts/:id', element: <Post />}
+      { path: 'posts/:id', element: <Post />},
+      { path: 'create-post', element: <NewPost />},
     ]
   }
 ])
